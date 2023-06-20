@@ -2,5 +2,13 @@
     margin: 0 0 0 0;
 }
 body {
-    background-color: darkmagenta;
+    background-color:rgba(255, 217, 0, 0.357);
+    max-width: 100%;
+}
+iframe {
+    height: 100vh;
+    width: 100%;
+}
+.netlogo-display-horizontal, .netlogo-tab-area,  {
+    display: none;
 }
