@@ -4,5 +4,11 @@ async function getSideBar() {
     const stuff = await response.text();
     console.log(stuff);
     sidebar.innerHTML = stuff;
+    buttons = getElementsByClassName("button")
+    buttons.forEach(button => {
+      button.onclick(()=>{
+        document.URL = button.href
+      })
+    });
   }
 getSideBar();
