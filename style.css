@@ -1,5 +1,6 @@
 * {
     margin: 0 0 0 0;
+    float: left;
 }
 body {
     background-color:rgba(255, 217, 0, 0.357);
