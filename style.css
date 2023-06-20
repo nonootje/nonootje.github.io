@@ -9,6 +9,18 @@ iframe {
     height: 100vh;
     width: 100%;
 }
-.netlogo-display-horizontal, .netlogo-tab-area,  {
+.netlogo-display-horizontal, .netlogo-tab-area  {
     display: none;
+}
+.kop {
+    min-width: 80%;
+    font-size: 30px;
+}
+.sidebar {
+    width: 80px;
+}
+.sidebar button {
+    min-height: 20px;
+    width: 70px;
+    margin: 5px 5px 5px 5px;
 }
