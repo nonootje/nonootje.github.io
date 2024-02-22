@@ -1,0 +1,23 @@
+div {
+    position: absolute;
+    float:left;
+    width: 50%;
+    height: 60%;
+    text-align: center;
+    padding-top: 20%;
+    font-size: 60px;
+}
+
+#timer {
+    background-color: aqua;
+}
+
+#alarm {
+    background-color: darkseagreen;
+    left: 50%;
+
+}
+
+* {
+    margin: 0 0 0 0;
+}
